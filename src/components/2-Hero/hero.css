@@ -1,0 +1,39 @@
+section .head {
+    display: flex;
+    align-items: end;
+}
+section .head .image img{
+    width: 250px;
+    border: 1px solid rgba(250, 168, 114, 0.74);
+    border-radius: 50%;
+}
+section .head .icon {
+    color: var(--blue);
+    font-size: 1.5rem;
+}
+.text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--title);
+}
+.text p {
+    color: var(--subTitle);
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+section .icons ul li {
+    padding: 1rem 2rem 0 0;
+}
+section .icons ul li a {
+    font-size: 25px;
+    color: var(--subTitle);
+    transition: 0.3s;
+}
+section .icons ul li a:hover {
+    font-size: 27px;
+    color: var(--icon-hover);
+}
+.deveAnimation {
+    transform: translate(80px, -80px);
+}

@@ -1,0 +1,15 @@
+footer .list li{
+    margin-right: 1.5rem;
+}
+footer .list li a {
+        color: var(--title);
+        transition: 0.2s;
+        font-size:1rem;
+}
+footer .list li a:hover {
+        color: var(--blue);
+        font-size: 1.1rem;
+}
+footer .copy p{
+    color: var(--subTitle);
+}
